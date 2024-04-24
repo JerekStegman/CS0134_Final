@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parasite</title>
+    <link rel="stylesheet" href="styles2.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .movie-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .movie-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .rating {
+            margin-top: 20px;
+        }
+        .rating input[type="radio"] {
+            display: none;
+        }
+        .rating label {
+            font-size: 30px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        .rating input[type="radio"]:checked ~ label {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-image">
+            <img src="parasite.jpg" alt="Movie Poster">
+        </div>
+
+        <h1>Parasite</h1>
+
+        <section>
+            <h2>Description</h2>
+            <p>The film, starring Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-shik, Park So-dam, Jang Hye-jin, Park Myung-hoon, and Lee Jung-eun, follows a poor family who infiltrate the life of a wealthy family. The script is based on a play Bong wrote in 2013.</p>
+        </section>
+
+        <section>
+            <h2>Director</h2>
+            <p>Bong Joon-ho is a South Korean film director, producer and screenwriter. The recipient of three Academy Awards, his filmography is characterised by emphasis on social and class themes, genre-mixing, black humor, and sudden tone shifts.</p>
+        </section>
+
+        <section>
+            <h2>Cast</h2>
+            <ul>
+                <li>Lee Sun-kyun</li>
+                <li>Cho Yeo-jeong</li>
+                <li>Park So-dam</li>
+                <li>Choi Woo-shik</li>
+                <li>Kong Ho Song</li>
+                <li>Many more!</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Plot Summary</h2>
+            <p>Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.</p>
+        </section>
+
+        <section>
+            <h2>My Review</h2>
+            <p>This section is for your review of the movie.</p>
+        </section>
+
+        <section class="rating">
+            <h2>Rating</h2>
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5">☆</label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4">☆</label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3">☆</label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2">☆</label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1">☆</label>
+        </section>
+    </div>
+</body>
+</html>

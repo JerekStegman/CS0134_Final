@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Empire Strikes Back</title>
+    <link rel="stylesheet" href="styles2.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .movie-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .movie-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .rating {
+            margin-top: 20px;
+        }
+        .rating input[type="radio"] {
+            display: none;
+        }
+        .rating label {
+            font-size: 30px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        .rating input[type="radio"]:checked ~ label {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-image">
+            <img src="empire.jpg" alt="Movie Poster">
+        </div>
+
+        <h1>The Empire Strikes Back</h1>
+
+        <section>
+            <h2>Description</h2>
+            <p>Set three years after the events of Star Wars, the film recounts the battle between the malevolent Galactic Empire, led by the Emperor, and the Rebel Alliance, led by Princess Leia. Rebel ally Luke Skywalker trains to master the Force so he can confront the Emperor's powerful disciple, Darth Vader.</p>
+        </section>
+
+        <section>
+            <h2>Director</h2>
+            <p>Irvin Kershner was an American director for film and television. Early in his career as a filmmaker he directed quirky, independent drama films, while working as a lecturer at the University of Southern California.</p>
+        </section>
+
+        <section>
+            <h2>Cast</h2>
+            <ul>
+                <li>Mark Hamill</li>
+                <li>Harrison Ford</li>
+                <li>Carrie Fisher</li>
+                <li>Billy D. Williams</li>
+                <li>Alec Guinness</li>
+                <li>Many more!</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Plot Summary</h2>
+            <p>The adventure continues in this "Star Wars" sequel. Luke Skywalker (Mark Hamill), Han Solo (Harrison Ford), Princess Leia (Carrie Fisher) and Chewbacca (Peter Mayhew) face attack by the Imperial forces and its AT-AT walkers on the ice planet Hoth. While Han and Leia escape in the Millennium Falcon, Luke travels to Dagobah in search of Yoda. Only with the Jedi master's help will Luke survive when the dark side of the Force beckons him into the ultimate duel with Darth Vader (David Prowse).</p>
+        </section>
+
+        <section>
+            <h2>My Review</h2>
+            <p>This section is for your review of the movie.</p>
+        </section>
+
+        <section class="rating">
+            <h2>Rating</h2>
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5">☆</label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4">☆</label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3">☆</label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2">☆</label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1">☆</label>
+        </section>
+    </div>
+</body>
+</html>

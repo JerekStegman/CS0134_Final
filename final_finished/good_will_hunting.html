@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Will Hunting</title>
+    <link rel="stylesheet" href="styles2.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .movie-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .movie-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .rating {
+            margin-top: 20px;
+        }
+        .rating input[type="radio"] {
+            display: none;
+        }
+        .rating label {
+            font-size: 30px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        .rating input[type="radio"]:checked ~ label {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-image">
+            <img src="hunting.jpg" alt="Movie Poster">
+        </div>
+
+        <h1>Good Will Hunting</h1>
+
+        <section>
+            <h2>Description</h2>
+            <p>Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire.</p>
+        </section>
+
+        <section>
+            <h2>Director</h2>
+            <p>Gus Green Van Sant Jr. is an American film director, producer, photographer, and musician who has earned acclaim as an independent filmmaker. His films typically deal with themes of marginalized subcultures, in particular homosexuality.</p>
+        </section>
+
+        <section>
+            <h2>Cast</h2>
+            <ul>
+                <li>Robin Williams</li>
+                <li>Matt Damon</li>
+                <li>Ben Affleck</li>
+                <li>Stellan Skarsgard</li>
+                <li>Casey Affleck</li>
+                <li>Many more!</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Plot Summary</h2>
+            <p>Will Hunting (Matt Damon) has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau (Stellan Skarsgard), who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire (Robin Williams).</p>
+        </section>
+
+        <section>
+            <h2>My Review</h2>
+            <p>This section is for your review of the movie.</p>
+        </section>
+
+        <section class="rating">
+            <h2>Rating</h2>
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5">☆</label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4">☆</label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3">☆</label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2">☆</label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1">☆</label>
+        </section>
+    </div>
+</body>
+</html>
